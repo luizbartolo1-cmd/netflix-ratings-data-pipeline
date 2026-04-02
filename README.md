@@ -30,7 +30,9 @@ The pipeline follows a layered structure:
 
 ## Dashboard Preview
 ![Dashboard Top](docs/dashboard_top.png)
+
 ![Dashboard Mid](docs/dashboard_mid.png)
+
 ![Dashboard Bottom](docs/dashboard_bottom.png)
 
 ## Project Structure
