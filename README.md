@@ -1,14 +1,14 @@
+# Netflix Ratings Analytics
 Built a complete end-to-end data pipeline using real-world data engineering concepts:
 data ingestion, transformation, dimensional modeling and BI visualization.
 
-# netflix-ratings-data-pipeline
-End-to-end data pipeline for Netflix ratings analytics using BigQuery and Metabase
-# Netflix Ratings Analytics
-
-End-to-end data pipeline project built with Google Cloud Platform, BigQuery and Metabase to analyze movie ratings data.
-
 ## Overview
 This project was designed to simulate a real-world analytics workflow, from raw data ingestion to business-oriented dashboards.
+- Built a layered data architecture (Bronze, Silver, Gold)
+- Handled dirty data (NULLs, invalid values like -1 ratings)
+- Designed fact and dimension tables
+- Created analytical views for business insights
+- Built a dashboard focused on decision-making
 
 ## Data Source
 - GroupLens MovieLens Dataset
@@ -39,8 +39,6 @@ sql/
 docs/
 README.md
 
-## Key Learnings
-- Built a layered data architecture (Bronze, Silver, Gold)
 - Handled dirty data (NULLs, invalid values like -1 ratings)
 - Designed fact and dimension tables
 - Created analytical views for business insights
